@@ -1,0 +1,64 @@
+.bg_img{
+    
+    background: var(--color-darkblue);
+    background-image: linear-gradient(115deg, rgba(117, 203, 102, 0.8), rgba(157, 112, 168, 0.7)), 
+    url(../assets/img/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.olaa{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+.cabss{
+    font-size: 25px;
+    text-align: center;
+}
+#Survey_Form{
+    @media (min-width: 500px) {
+        
+    }
+    width: 650px;
+    font-size: 30px;
+}
+.form{
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.commant{
+    width: 670px;
+    height: 200px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+}
+.back_color{
+    background-color: rgba(108, 62, 93, 0.8);
+    width: 750px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+   
+}
+.form_flex{
+    display: flex;
+    justify-content: center;
+}
+.submit_button{
+    display: block;
+    width: 690px;
+    margin: 20px 0px 0px 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(42, 139, 139);
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    border: 1px solid rgb(42, 139, 139);
+}

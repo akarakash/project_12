@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+   <header>
+    <section class="bg_img">
+      <div>
+        <div class="olaa">Ola Survey Form</div>
+        <p class="cabss">Ola is a global mobility ecosystem that offers cabs... </p>
+      </div>
+      <div class="form_flex">
+     <div class="back_color">
+      <form id="Survey_Form">
+        <div class="form_group">
+          <label id="name_label" for="name">Name</label>
+          <br>
+          <input type="text" name="name" id="name" class="form" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form_group">
+          <label id="email_label" for="email">Email</label>
+          <br>
+          <input type="text" name="email" id="email" class="form" placeholder="Enter Your Email" required>
+        </div>
+        <div class="form_group">
+          <label id="age_label" for="number">Age</label>
+          <br>
+          <input type="number" name="age" id="number" min="18" max="99"  class="form" placeholder="Enter Your Age" required>
+        </div>
+        <div class="form_group">
+          <label>select Your gender</label>
+           <select name="gender" id="dropdown" class="form">
+            <option disabled selected value>Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+           </select>
+        </div>
+        <div class="form_group">
+          <label>which type of car you need____?</label>
+          <br>
+          <label class="group_radio">
+            <label for="">
+              <input type="radio" name="car" value="4_seater" class="radio">
+              '4_seater'
+            </label>
+            <br>
+            <label for="">
+              <input type="radio" name="car" value="7_seater" class="radio">
+              '7_seater'
+            </label>
+            <br>
+            <label for="">
+              <input type="radio" name="car" value="12_seater" class="radio">
+              '12_seater'
+            </label>
+          </label>
+          <div class="form_group">
+            <label>Any  commants..</label>
+            <br>
+            <textarea name="commant" id="commants" class="commant" placeholder="Enter Your commant here....."></textarea>
+          </div>
+          <div class="form_group">
+            <button type="submit" id="submit" class="submit_button">Submit</button>
+          </div>
+        </div>
+    </form>
+     </div>
+    </div>
+    </section>
+   </header> 
+</body>
+</html>
